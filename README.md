@@ -78,4 +78,4 @@ php artisan serve
 Le projet est accessible sur `http://127.0.0.1:8000`
 
 ---
-🎉 Le projet Laravel est maintenant configuré avec Webpack Mix
+Le projet Laravel est maintenant configuré avec Webpack Mix

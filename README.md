@@ -3,6 +3,8 @@
 ### 1. Supprimer Vite
 ```sh
 npm remove vite laravel-vite-plugin
+```
+```sh
 rm vite.config.js
 ```
 
@@ -54,11 +56,15 @@ Enlever la ligne :
 Remplacer :
 ```html
 @vite('resources/js/app.js')
+```
+```html
 @vite('resources/css/app.css')
 ```
 Par :
 ```html
 <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+```
+```html
 <script src="{{ mix('js/app.js') }}"></script>
 ```
 
